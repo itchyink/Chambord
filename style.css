@@ -8,6 +8,7 @@ html {
     height: 528px;
     width: 408px;
     overflow: hidden;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.07);
 }
 
 body {
@@ -52,5 +53,8 @@ img#castle {
     width: 0.5em;
     height: 0.5em;
     display: inline-block;
-    content: url(images/card-content-button-shape-copy.png);
+    content: '';
+    background-image: url(./images/card-content-button-shape-copy@3x.png);
+    background-size: 0.5em 0.5em; 
+
 }
