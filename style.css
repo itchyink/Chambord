@@ -7,4 +7,50 @@ html {
     background-color: #FFFFFF;
     height: 528px;
     width: 408px;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+img#castle {
+    width: 100%;
+}
+
+#preview {
+    height: 15em;
+    overflow: hidden;
+}
+
+#text, #clickme {
+    padding: 1em 44px 1em 44px;
+}
+
+#text p {
+    font-size: 0.8em;
+}
+
+#clickme button {
+    background-color: #49546a;
+    border: 0px;
+    padding: 0.75em 1em;
+    color: #FFFFFF;
+}
+
+#clickme button span::before {
+    width: 0.5em;
+    height: 0.5em;
+    display: inline-block;
+    content: url(images/card-content-button-shape-copy.png);
 }
